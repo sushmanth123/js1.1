@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>js</title>
+	</head>
+	<body>
+		<script type="text/javascript">
+			console.log(1+"2"+"2")//122
+			console.log(1+ +"2"+"2")//32 because, second plus before second2 converts string to integer.
+			console.log(1+ -"1"+"2")//02 same as above.
+			console.log(+"1"+"1"+"2")//112 because, only single plus for each element.
+			console.log("A"-"B"+"2")//NAN2 In between elements there should be "+" but not "-".so A-B is NUN and 2 prints as usual.
+			console.log("A"-"B"+2)//NAN Becuase , NAN  plus integer is also a NAN.
+			console.log("A"-"B"-2)//NAN  same as 5th explanation.
+		</script>
+	</body>
+</html>
